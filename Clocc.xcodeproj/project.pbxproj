@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E89241EB23B4FD1C00D3E716 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E89241EA23B4FD1C00D3E716 /* AppDelegate.m */; };
+		E89241EE23B4FD1C00D3E716 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E89241ED23B4FD1C00D3E716 /* SceneDelegate.m */; };
+		E89241F123B4FD1C00D3E716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E89241F023B4FD1C00D3E716 /* ViewController.m */; };
+		E89241F423B4FD1C00D3E716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89241F223B4FD1C00D3E716 /* Main.storyboard */; };
+		E89241F723B4FD1C00D3E716 /* Clocc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E89241F523B4FD1C00D3E716 /* Clocc.xcdatamodeld */; };
+		E89241F923B4FD1E00D3E716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89241F823B4FD1E00D3E716 /* Assets.xcassets */; };
+		E89241FC23B4FD1E00D3E716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89241FA23B4FD1E00D3E716 /* LaunchScreen.storyboard */; };
+		E89241FF23B4FD1E00D3E716 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E89241FE23B4FD1E00D3E716 /* main.m */; };
+		E892420923B4FD1E00D3E716 /* CloccTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E892420823B4FD1E00D3E716 /* CloccTests.m */; };
+		E892421423B4FD1E00D3E716 /* CloccUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E892421323B4FD1E00D3E716 /* CloccUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E892420523B4FD1E00D3E716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89241DE23B4FD1C00D3E716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89241E523B4FD1C00D3E716;
+			remoteInfo = Clocc;
+		};
+		E892421023B4FD1E00D3E716 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E89241DE23B4FD1C00D3E716 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E89241E523B4FD1C00D3E716;
+			remoteInfo = Clocc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E89241E623B4FD1C00D3E716 /* Clocc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clocc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89241E923B4FD1C00D3E716 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E89241EA23B4FD1C00D3E716 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E89241EC23B4FD1C00D3E716 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E89241ED23B4FD1C00D3E716 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E89241EF23B4FD1C00D3E716 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E89241F023B4FD1C00D3E716 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E89241F323B4FD1C00D3E716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E89241F623B4FD1C00D3E716 /* Clocc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clocc.xcdatamodel; sourceTree = "<group>"; };
+		E89241F823B4FD1E00D3E716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E89241FB23B4FD1E00D3E716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E89241FD23B4FD1E00D3E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89241FE23B4FD1E00D3E716 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E892420423B4FD1E00D3E716 /* CloccTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloccTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E892420823B4FD1E00D3E716 /* CloccTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloccTests.m; sourceTree = "<group>"; };
+		E892420A23B4FD1E00D3E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E892420F23B4FD1E00D3E716 /* CloccUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloccUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E892421323B4FD1E00D3E716 /* CloccUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloccUITests.m; sourceTree = "<group>"; };
+		E892421523B4FD1E00D3E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E89241E323B4FD1C00D3E716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892420123B4FD1E00D3E716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892420C23B4FD1E00D3E716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E89241DD23B4FD1C00D3E716 = {
+			isa = PBXGroup;
+			children = (
+				E89241E823B4FD1C00D3E716 /* Clocc */,
+				E892420723B4FD1E00D3E716 /* CloccTests */,
+				E892421223B4FD1E00D3E716 /* CloccUITests */,
+				E89241E723B4FD1C00D3E716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E89241E723B4FD1C00D3E716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E89241E623B4FD1C00D3E716 /* Clocc.app */,
+				E892420423B4FD1E00D3E716 /* CloccTests.xctest */,
+				E892420F23B4FD1E00D3E716 /* CloccUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E89241E823B4FD1C00D3E716 /* Clocc */ = {
+			isa = PBXGroup;
+			children = (
+				E89241E923B4FD1C00D3E716 /* AppDelegate.h */,
+				E89241EA23B4FD1C00D3E716 /* AppDelegate.m */,
+				E89241EC23B4FD1C00D3E716 /* SceneDelegate.h */,
+				E89241ED23B4FD1C00D3E716 /* SceneDelegate.m */,
+				E89241EF23B4FD1C00D3E716 /* ViewController.h */,
+				E89241F023B4FD1C00D3E716 /* ViewController.m */,
+				E89241F223B4FD1C00D3E716 /* Main.storyboard */,
+				E89241F823B4FD1E00D3E716 /* Assets.xcassets */,
+				E89241FA23B4FD1E00D3E716 /* LaunchScreen.storyboard */,
+				E89241FD23B4FD1E00D3E716 /* Info.plist */,
+				E89241FE23B4FD1E00D3E716 /* main.m */,
+				E89241F523B4FD1C00D3E716 /* Clocc.xcdatamodeld */,
+			);
+			path = Clocc;
+			sourceTree = "<group>";
+		};
+		E892420723B4FD1E00D3E716 /* CloccTests */ = {
+			isa = PBXGroup;
+			children = (
+				E892420823B4FD1E00D3E716 /* CloccTests.m */,
+				E892420A23B4FD1E00D3E716 /* Info.plist */,
+			);
+			path = CloccTests;
+			sourceTree = "<group>";
+		};
+		E892421223B4FD1E00D3E716 /* CloccUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E892421323B4FD1E00D3E716 /* CloccUITests.m */,
+				E892421523B4FD1E00D3E716 /* Info.plist */,
+			);
+			path = CloccUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E89241E523B4FD1C00D3E716 /* Clocc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E892421823B4FD1E00D3E716 /* Build configuration list for PBXNativeTarget "Clocc" */;
+			buildPhases = (
+				E89241E223B4FD1C00D3E716 /* Sources */,
+				E89241E323B4FD1C00D3E716 /* Frameworks */,
+				E89241E423B4FD1C00D3E716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clocc;
+			productName = Clocc;
+			productReference = E89241E623B4FD1C00D3E716 /* Clocc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E892420323B4FD1E00D3E716 /* CloccTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E892421B23B4FD1E00D3E716 /* Build configuration list for PBXNativeTarget "CloccTests" */;
+			buildPhases = (
+				E892420023B4FD1E00D3E716 /* Sources */,
+				E892420123B4FD1E00D3E716 /* Frameworks */,
+				E892420223B4FD1E00D3E716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E892420623B4FD1E00D3E716 /* PBXTargetDependency */,
+			);
+			name = CloccTests;
+			productName = CloccTests;
+			productReference = E892420423B4FD1E00D3E716 /* CloccTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E892420E23B4FD1E00D3E716 /* CloccUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E892421E23B4FD1E00D3E716 /* Build configuration list for PBXNativeTarget "CloccUITests" */;
+			buildPhases = (
+				E892420B23B4FD1E00D3E716 /* Sources */,
+				E892420C23B4FD1E00D3E716 /* Frameworks */,
+				E892420D23B4FD1E00D3E716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E892421123B4FD1E00D3E716 /* PBXTargetDependency */,
+			);
+			name = CloccUITests;
+			productName = CloccUITests;
+			productReference = E892420F23B4FD1E00D3E716 /* CloccUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E89241DE23B4FD1C00D3E716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = jpitkanen18;
+				TargetAttributes = {
+					E89241E523B4FD1C00D3E716 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					E892420323B4FD1E00D3E716 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E89241E523B4FD1C00D3E716;
+					};
+					E892420E23B4FD1E00D3E716 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = E89241E523B4FD1C00D3E716;
+					};
+				};
+			};
+			buildConfigurationList = E89241E123B4FD1C00D3E716 /* Build configuration list for PBXProject "Clocc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E89241DD23B4FD1C00D3E716;
+			productRefGroup = E89241E723B4FD1C00D3E716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E89241E523B4FD1C00D3E716 /* Clocc */,
+				E892420323B4FD1E00D3E716 /* CloccTests */,
+				E892420E23B4FD1E00D3E716 /* CloccUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E89241E423B4FD1C00D3E716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89241FC23B4FD1E00D3E716 /* LaunchScreen.storyboard in Resources */,
+				E89241F923B4FD1E00D3E716 /* Assets.xcassets in Resources */,
+				E89241F423B4FD1C00D3E716 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892420223B4FD1E00D3E716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892420D23B4FD1E00D3E716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E89241E223B4FD1C00D3E716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89241FF23B4FD1E00D3E716 /* main.m in Sources */,
+				E89241F123B4FD1C00D3E716 /* ViewController.m in Sources */,
+				E89241EB23B4FD1C00D3E716 /* AppDelegate.m in Sources */,
+				E89241F723B4FD1C00D3E716 /* Clocc.xcdatamodeld in Sources */,
+				E89241EE23B4FD1C00D3E716 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892420023B4FD1E00D3E716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E892420923B4FD1E00D3E716 /* CloccTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E892420B23B4FD1E00D3E716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E892421423B4FD1E00D3E716 /* CloccUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E892420623B4FD1E00D3E716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89241E523B4FD1C00D3E716 /* Clocc */;
+			targetProxy = E892420523B4FD1E00D3E716 /* PBXContainerItemProxy */;
+		};
+		E892421123B4FD1E00D3E716 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E89241E523B4FD1C00D3E716 /* Clocc */;
+			targetProxy = E892421023B4FD1E00D3E716 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E89241F223B4FD1C00D3E716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E89241F323B4FD1C00D3E716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E89241FA23B4FD1E00D3E716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E89241FB23B4FD1E00D3E716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E892421623B4FD1E00D3E716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E892421723B4FD1E00D3E716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E892421923B4FD1E00D3E716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74RWVTYMM3;
+				INFOPLIST_FILE = Clocc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpitkanen18.Clocc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E892421A23B4FD1E00D3E716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74RWVTYMM3;
+				INFOPLIST_FILE = Clocc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpitkanen18.Clocc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E892421C23B4FD1E00D3E716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74RWVTYMM3;
+				INFOPLIST_FILE = CloccTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpitkanen18.CloccTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clocc.app/Clocc";
+			};
+			name = Debug;
+		};
+		E892421D23B4FD1E00D3E716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74RWVTYMM3;
+				INFOPLIST_FILE = CloccTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpitkanen18.CloccTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clocc.app/Clocc";
+			};
+			name = Release;
+		};
+		E892421F23B4FD1E00D3E716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74RWVTYMM3;
+				INFOPLIST_FILE = CloccUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpitkanen18.CloccUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clocc;
+			};
+			name = Debug;
+		};
+		E892422023B4FD1E00D3E716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74RWVTYMM3;
+				INFOPLIST_FILE = CloccUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jpitkanen18.CloccUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clocc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E89241E123B4FD1C00D3E716 /* Build configuration list for PBXProject "Clocc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E892421623B4FD1E00D3E716 /* Debug */,
+				E892421723B4FD1E00D3E716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E892421823B4FD1E00D3E716 /* Build configuration list for PBXNativeTarget "Clocc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E892421923B4FD1E00D3E716 /* Debug */,
+				E892421A23B4FD1E00D3E716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E892421B23B4FD1E00D3E716 /* Build configuration list for PBXNativeTarget "CloccTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E892421C23B4FD1E00D3E716 /* Debug */,
+				E892421D23B4FD1E00D3E716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E892421E23B4FD1E00D3E716 /* Build configuration list for PBXNativeTarget "CloccUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E892421F23B4FD1E00D3E716 /* Debug */,
+				E892422023B4FD1E00D3E716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E89241F523B4FD1C00D3E716 /* Clocc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E89241F623B4FD1C00D3E716 /* Clocc.xcdatamodel */,
+			);
+			currentVersion = E89241F623B4FD1C00D3E716 /* Clocc.xcdatamodel */;
+			path = Clocc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E89241DE23B4FD1C00D3E716 /* Project object */;
+}
